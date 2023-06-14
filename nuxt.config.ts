@@ -9,4 +9,14 @@ export default defineNuxtConfig({
     },
     overwriteByEnv: "in nuxt config file",
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "@/assets/css/_colors.scss" as *;',
+        },
+      },
+    },
+  },
+  css: ["bootstrap/dist/css/bootstrap.min.css"],
 });
