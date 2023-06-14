@@ -30,12 +30,6 @@ function toggleTheme() {
   </div>
 </template>
 <style scoped>
-.section {
-  padding: 1rem;
-  margin-bottom: 2rem;
-  background-color: lightgray;
-  border-radius: 8px;
-}
 .theme-demo {
   width: 100px;
   height: 100px;
